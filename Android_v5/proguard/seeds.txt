@@ -1,0 +1,236 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setTriggerPercentage(float)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setTargetOffsetTopAndBottom(int)
+com.newppt.android.ui.LoadingActivity
+com.newppt.android.ui.LoadingActivity: LoadingActivity()
+com.newppt.android.ui.Login
+com.newppt.android.ui.Login: Login()
+com.newppt.android.ui.NewImage
+com.newppt.android.ui.NewImage: NewImage(android.content.Context)
+com.newppt.android.ui.NewImage: NewImage(android.content.Context,android.util.AttributeSet)
+com.newppt.android.ui.NewImage: NewImage(android.content.Context,android.util.AttributeSet,int)
+com.newppt.android.ui.NewImage: android.graphics.Bitmap getBmp()
+com.newppt.android.ui.PLFragmentActivity
+com.newppt.android.ui.PLFragmentActivity: PLFragmentActivity()
+com.newppt.android.ui.PPTView
+com.newppt.android.ui.PPTView: PPTView()
+com.newppt.android.ui.ScaleImage
+com.newppt.android.ui.ScaleImage: ScaleImage(android.content.Context)
+com.newppt.android.ui.ScaleImage: ScaleImage(android.content.Context,android.util.AttributeSet)
+com.newppt.android.ui.ScaleImage: ScaleImage(android.content.Context,android.util.AttributeSet,int)
+com.newppt.android.ui.SvgView
+com.newppt.android.ui.SvgView: SvgView()
+com.newppt1.android_v5.R$anim: int left_in
+com.newppt1.android_v5.R$anim: int left_out
+com.newppt1.android_v5.R$anim: int push_top_in2
+com.newppt1.android_v5.R$anim: int push_top_out2
+com.newppt1.android_v5.R$anim: int right_in
+com.newppt1.android_v5.R$anim: int right_out
+com.newppt1.android_v5.R$drawable: int background_top
+com.newppt1.android_v5.R$drawable: int blue
+com.newppt1.android_v5.R$drawable: int btn_toclean
+com.newppt1.android_v5.R$drawable: int cancleshouxie
+com.newppt1.android_v5.R$drawable: int cancleshouxie_1
+com.newppt1.android_v5.R$drawable: int cancleshouxie_2
+com.newppt1.android_v5.R$drawable: int choice
+com.newppt1.android_v5.R$drawable: int cleareditview
+com.newppt1.android_v5.R$drawable: int connect
+com.newppt1.android_v5.R$drawable: int connect_1
+com.newppt1.android_v5.R$drawable: int connect_2
+com.newppt1.android_v5.R$drawable: int delete
+com.newppt1.android_v5.R$drawable: int enter
+com.newppt1.android_v5.R$drawable: int enter_1
+com.newppt1.android_v5.R$drawable: int enter_2
+com.newppt1.android_v5.R$drawable: int getip
+com.newppt1.android_v5.R$drawable: int getip_1
+com.newppt1.android_v5.R$drawable: int gray
+com.newppt1.android_v5.R$drawable: int green
+com.newppt1.android_v5.R$drawable: int handpaint
+com.newppt1.android_v5.R$drawable: int ic_launcher
+com.newppt1.android_v5.R$drawable: int in
+com.newppt1.android_v5.R$drawable: int ip_tip
+com.newppt1.android_v5.R$drawable: int ivory
+com.newppt1.android_v5.R$drawable: int lavender
+com.newppt1.android_v5.R$drawable: int lightblue
+com.newppt1.android_v5.R$drawable: int loading_bg
+com.newppt1.android_v5.R$drawable: int loading_pro
+com.newppt1.android_v5.R$drawable: int login
+com.newppt1.android_v5.R$drawable: int logo
+com.newppt1.android_v5.R$drawable: int logo2
+com.newppt1.android_v5.R$drawable: int logo3
+com.newppt1.android_v5.R$drawable: int logo4
+com.newppt1.android_v5.R$drawable: int logo5
+com.newppt1.android_v5.R$drawable: int logo6
+com.newppt1.android_v5.R$drawable: int ok
+com.newppt1.android_v5.R$drawable: int open
+com.newppt1.android_v5.R$drawable: int out
+com.newppt1.android_v5.R$drawable: int pink
+com.newppt1.android_v5.R$drawable: int ppt
+com.newppt1.android_v5.R$drawable: int ppt2
+com.newppt1.android_v5.R$drawable: int qianwang
+com.newppt1.android_v5.R$drawable: int qianwang_2
+com.newppt1.android_v5.R$drawable: int qianwang_listview
+com.newppt1.android_v5.R$drawable: int red
+com.newppt1.android_v5.R$drawable: int shape_bg_listview
+com.newppt1.android_v5.R$drawable: int shouxie_1
+com.newppt1.android_v5.R$drawable: int shouxie_2
+com.newppt1.android_v5.R$drawable: int skyblue
+com.newppt1.android_v5.R$drawable: int textcolor
+com.newppt1.android_v5.R$drawable: int to
+com.newppt1.android_v5.R$drawable: int tongbu_1
+com.newppt1.android_v5.R$drawable: int tongbu_2
+com.newppt1.android_v5.R$drawable: int white
+com.newppt1.android_v5.R$drawable: int xiazai_1
+com.newppt1.android_v5.R$drawable: int xiazai_2
+com.newppt1.android_v5.R$drawable: int yincan_1
+com.newppt1.android_v5.R$drawable: int yuan_1
+com.newppt1.android_v5.R$drawable: int yuan_2
+com.newppt1.android_v5.R$id: int cancle
+com.newppt1.android_v5.R$id: int clear
+com.newppt1.android_v5.R$id: int clearTip
+com.newppt1.android_v5.R$id: int contral
+com.newppt1.android_v5.R$id: int delete
+com.newppt1.android_v5.R$id: int eraser
+com.newppt1.android_v5.R$id: int getIP
+com.newppt1.android_v5.R$id: int go
+com.newppt1.android_v5.R$id: int golist
+com.newppt1.android_v5.R$id: int goto_bijippt
+com.newppt1.android_v5.R$id: int goto_yuanbanppt
+com.newppt1.android_v5.R$id: int id_viewpager
+com.newppt1.android_v5.R$id: int image
+com.newppt1.android_v5.R$id: int image2
+com.newppt1.android_v5.R$id: int image3
+com.newppt1.android_v5.R$id: int ip
+com.newppt1.android_v5.R$id: int ipInputLayout
+com.newppt1.android_v5.R$id: int ipTipImage
+com.newppt1.android_v5.R$id: int layout
+com.newppt1.android_v5.R$id: int layoutButtom
+com.newppt1.android_v5.R$id: int layoutLeft
+com.newppt1.android_v5.R$id: int layoutTop
+com.newppt1.android_v5.R$id: int layout_in
+com.newppt1.android_v5.R$id: int line
+com.newppt1.android_v5.R$id: int load
+com.newppt1.android_v5.R$id: int loadprogress
+com.newppt1.android_v5.R$id: int logon
+com.newppt1.android_v5.R$id: int logoname
+com.newppt1.android_v5.R$id: int ok
+com.newppt1.android_v5.R$id: int paint
+com.newppt1.android_v5.R$id: int paintMap
+com.newppt1.android_v5.R$id: int ppt
+com.newppt1.android_v5.R$id: int pptfilename
+com.newppt1.android_v5.R$id: int pptlist
+com.newppt1.android_v5.R$id: int pptlogo
+com.newppt1.android_v5.R$id: int progressBar1
+com.newppt1.android_v5.R$id: int redo
+com.newppt1.android_v5.R$id: int renew
+com.newppt1.android_v5.R$id: int time
+com.newppt1.android_v5.R$id: int tongbuppt
+com.newppt1.android_v5.R$id: int undo
+com.newppt1.android_v5.R$id: int xiazaippt
+com.newppt1.android_v5.R$id: int yincanImage
+com.newppt1.android_v5.R$id: int yincanLayout_left
+com.newppt1.android_v5.R$layout: int imageview
+com.newppt1.android_v5.R$layout: int listitem
+com.newppt1.android_v5.R$layout: int loading
+com.newppt1.android_v5.R$layout: int login
+com.newppt1.android_v5.R$layout: int pptlist
+com.newppt1.android_v5.R$layout: int pptlist_ada
+com.newppt1.android_v5.R$layout: int pptview
+com.newppt1.android_v5.R$layout: int tablist
+com.newppt1.android_v5.R$layout: int viewpager_top
+com.newppt1.android_v5.R$raw: int tip
+com.newppt1.android_v5.R$string: int app_name
+com.newppt1.android_v5.R$string: int biji_ppt
+com.newppt1.android_v5.R$string: int cancle
+com.newppt1.android_v5.R$string: int clear
+com.newppt1.android_v5.R$string: int connecting
+com.newppt1.android_v5.R$string: int contralButton
+com.newppt1.android_v5.R$string: int delete
+com.newppt1.android_v5.R$string: int eraser
+com.newppt1.android_v5.R$string: int getip
+com.newppt1.android_v5.R$string: int hello_world
+com.newppt1.android_v5.R$string: int input_ip
+com.newppt1.android_v5.R$string: int load
+com.newppt1.android_v5.R$string: int not_paintMap
+com.newppt1.android_v5.R$string: int paintMap
+com.newppt1.android_v5.R$string: int pen
+com.newppt1.android_v5.R$string: int redo
+com.newppt1.android_v5.R$string: int renew
+com.newppt1.android_v5.R$string: int soft_name
+com.newppt1.android_v5.R$string: int tongbuyo
+com.newppt1.android_v5.R$string: int undo
+com.newppt1.android_v5.R$string: int yuanban_ppt
+com.newppt1.android_v5.R$style: int AnimTop2
+com.newppt1.android_v5.R$style: int AppBaseTheme
+com.newppt1.android_v5.R$style: int AppTheme
+com.newppt1.android_v5.R$style: int MyDialogStyle
+com.newppt1.android_v5.R$style: int MyDialogStyleTop

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/choice"
+     >
+    
+    <ImageView 
+        android:id="@+id/pptlogo"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:src="@drawable/ppt2"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true" 
+        android:layout_alignParentLeft="true"       
+        />
+    
+    <LinearLayout 
+        android:id="@+id/layout"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true" 
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/pptlogo" 
+             
+        >
+        
+        <TextView 
+            android:id="@+id/pptfilename"
+            android:layout_height="35dp"
+            android:layout_width="fill_parent"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            />
+        
+        <TextView 
+            android:id="@+id/time"
+            android:layout_height="15dp"
+            android:layout_width="fill_parent"
+            android:textColor="@drawable/gray"
+            android:textSize="10sp"
+            />
+        
+    </LinearLayout>
+    
+    <ImageView 
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:src="@drawable/enter"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        
+        />
+    
+
+</RelativeLayout>

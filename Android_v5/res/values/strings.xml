@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PPT同步播放与笔记系统</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="contralButton">不同步</string>
+    <string name="tongbuyo">同步哟</string>
+    <string name="renew">刷新</string>
+    <string name="load">下载</string>
+    <string name="clear">清屏</string>
+    <string name="pen">画笔</string>
+    <string name="redo">重做</string>
+    <string name="undo">撤销</string>
+    <string name="eraser">橡皮</string>
+    <string name="paintMap">手写了啦</string>
+    <string name="not_paintMap">取消手写</string>
+    <string name="soft_name">PPT同步播放与笔记系统</string>
+    <string name="delete">删除</string>
+    <string name="cancle">取消</string>
+    <string name="input_ip">服务端ip地址</string>
+    <string name="connecting">正在连接</string>
+    <string name="biji_ppt">笔记PPT</string>
+    <string name="yuanban_ppt">原版PPT</string>
+    <string name="getip">自动获取IP</string>
+    
+</resources>

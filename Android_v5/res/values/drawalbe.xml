@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="red">#f00</drawable>  
+    <drawable name="green">#0f0</drawable>  
+    <drawable name="gray">#ccc</drawable> 
+    <drawable name="white">#ffffff</drawable><!--白色 --> 
+    <drawable name="ivory">#fffff0</drawable><!--象牙色 --> 
+    <drawable name="pink">#ffc0cb</drawable>
+    <drawable name="blue">#ff33b5e5</drawable>
+    <drawable name="lightblue">#7f33b5e5</drawable>
+    <drawable name="lavender">#e6e6fa</drawable><!--淡紫色 --> 
+    <drawable name="skyblue">#87ceeb</drawable><!--天蓝色 --> 
+</resources>

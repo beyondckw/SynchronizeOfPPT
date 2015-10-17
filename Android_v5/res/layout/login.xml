@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_margin="30dp">
+    
+    <ImageView 
+        android:id="@+id/logon"
+        android:layout_height="180dp"
+        android:layout_width="180dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"        
+        android:scaleType="fitXY"			
+        />                            <!-- 把图片按照指定的大小在View中显示-->
+    
+     <TextView
+         android:id="@+id/logoname"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_below="@id/logon"
+         android:text="@string/soft_name"
+         android:textSize="22sp"
+         android:textStyle="bold" />     <!--  设置粗体-->
+        
+     <RelativeLayout
+         android:id="@+id/ipInputLayout"
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginTop="30dp"
+         android:layout_below="@id/logoname" 
+         android:orientation="horizontal"
+         >
+         
+         <ImageView 
+             android:id="@+id/ipTipImage"
+             android:layout_height="20dp"
+             android:layout_width="20dp"
+             android:layout_marginTop="5dp"
+             android:layout_marginRight="10dp"
+             android:layout_gravity="center_vertical"
+             android:src="@drawable/ip_tip"
+             />
+         
+         
+         
+         <ImageView 
+             android:id="@+id/clearTip"
+             android:layout_height="20dp"
+             android:layout_width="20dp"
+             android:layout_marginTop="7dp"
+             android:padding="2dp"
+             android:src="@drawable/cleareditview"
+             android:layout_gravity="center_vertical"              
+             android:layout_alignParentRight="true" 
+             android:clickable="true"                      
+             />
+         
+         <EditText 
+	         android:id="@+id/ip"
+	         android:layout_height="wrap_content"
+	         android:layout_width="wrap_content"
+	         android:layout_toRightOf="@id/ipTipImage"
+	         android:layout_marginRight="20dp"
+	         android:background="@null"       
+	         android:hint="@string/input_ip"  
+	         android:singleLine="true"
+	         android:ellipsize="end"
+	         android:textSize="17dp"
+	         android:layout_alignRight="@id/clearTip"       
+         />
+         
+     </RelativeLayout>
+     
+    
+     <ImageView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/ipInputLayout"
+            android:background="@drawable/blue" />
+
+     
+     <ImageView 
+         android:id="@+id/ok"
+		 android:layout_height="50dp"
+		 android:layout_width="wrap_content"
+		 android:layout_marginTop="15dp"
+		 android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_below="@id/line"
+         android:background="@drawable/ok"  
+         android:scaleType="fitXY"       
+         />
+
+      <Button 
+         android:id="@+id/getIP"
+		 android:layout_height="40dp"
+		 android:layout_width="150dp"
+		 android:layout_marginTop="10dp"
+		 android:layout_centerHorizontal="true" 
+		 android:layout_alignParentRight="true"
+		 android:layout_below="@id/ok"		   		    	    
+         android:text="@string/getip" 
+         android:textColor="@drawable/ivory"
+         android:background="@drawable/getip"                         
+         />
+      
+      <TextView 
+        android:id="@+id/go"
+        android:layout_height="14dp"
+        android:layout_width="45dp"
+        android:text="前往"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"   
+        />
+ 
+    <ImageView 
+        android:id="@+id/golist"
+         android:layout_height="45dp"
+         android:layout_width="45dp"
+         android:src="@drawable/qianwang_listview"
+         android:layout_above="@id/go"
+         android:layout_alignParentRight="true"
+         android:clickable="true" 
+        />
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+     
+    
+    
+    
+     <com.newppt.android.ui.ScaleImage 
+        android:id="@+id/image"
+        android:layout_height="fill_parent"
+        android:layout_width="500dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/logo6"      
+        android:scaleType="fitXY"
+        />
+      
+    
+     
+     <com.newppt.android.ui.NewImage 
+        android:id="@+id/image2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"                          
+        android:scaleType="fitXY"         
+         />
+     
+     <ProgressBar 
+        android:id="@+id/loadprogress"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" 
+        style="@android:style/Widget.ProgressBar.Large" 
+        
+         />
+     
+     
+     <ImageView 
+         android:id="@+id/yincanImage"
+         android:layout_height="15dp"
+         android:layout_width="15dp"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="20dp"
+         android:src="@drawable/yincan_1"
+         
+         />
+     
+     <ImageView 
+         android:id="@+id/yincanLayout_left"
+         android:layout_height="45dp"
+         android:layout_width="45dp"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="10dp"
+         android:src="@drawable/yuan_1"
+         
+         />
+     
+     
+     
+     <LinearLayout 
+         android:id="@+id/layoutLeft"
+         android:layout_width="90dp"
+         android:layout_height="100dp"
+         android:background="@drawable/background_top"
+         android:orientation="vertical"
+         android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+         >
+         <Button 
+             android:id="@+id/goto_bijippt"
+             android:layout_height="50dp"
+             android:layout_width="fill_parent"
+             android:background="@drawable/open"
+             android:text="@string/biji_ppt"             
+             android:textColor="@drawable/ivory"
+             
+             />
+         
+         <ImageView 
+             android:layout_height="2dp"
+             android:layout_width="80dp"
+             android:layout_gravity="center_horizontal"
+             android:background="@drawable/gray"
+             />
+         
+         <Button 
+             android:id="@+id/goto_yuanbanppt"
+             android:layout_height="50dp"
+             android:layout_width="fill_parent"
+             android:background="@drawable/open"
+             android:text="@string/yuanban_ppt"
+             android:textColor="@drawable/ivory"
+             
+             />
+         
+     </LinearLayout>
+     
+     
+    <LinearLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background_top"
+        android:layout_centerHorizontal="true" >
+        
+        <Button 
+              android:id="@+id/renew"
+              android:layout_height="fill_parent"
+              android:layout_width="150dp"
+              android:text="@string/renew"
+              android:textColor="@drawable/ivory"
+              android:layout_gravity="center_vertical"
+              android:layout_weight="1"
+              android:background="@drawable/open"
+              android:clickable="true"/>
+         
+        <ImageView 
+            android:layout_height="40dp"
+            android:layout_width="2dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/gray"
+            />
+        
+          
+          
+          <Button
+            android:id="@+id/contral"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="@string/contralButton"
+            android:textColor="@drawable/ivory"
+            android:background="@drawable/open"
+            
+             />
+         
+          <ImageView 
+            android:layout_height="40dp"
+            android:layout_width="2dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/gray"
+            />
+          
+          <Button 
+              android:id="@+id/load"
+              android:layout_height="fill_parent"
+              android:layout_width="150dp"
+              android:text="@string/load"
+              android:textColor="@drawable/ivory"
+              android:layout_weight="1"
+              android:layout_gravity="center_vertical"
+              android:background="@drawable/open"
+              android:clickable="true"
+              />
+          
+  
+          
+        
+          <ImageView 
+            android:layout_height="40dp"
+            android:layout_width="2dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/gray"
+            />
+
+         
+            <Button 
+              android:id="@+id/paintMap"
+              android:layout_height="fill_parent"
+              android:layout_width="150dp"
+              android:text="@string/paintMap"
+              android:textColor="@drawable/ivory"
+              android:layout_gravity="center_vertical"
+              android:layout_weight="1"
+              android:background="@drawable/open"              
+              
+              />
+                                                 
+          
+       </LinearLayout>
+       
+   
+    <LinearLayout  
+        android:id="@+id/layoutButtom"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_top"
+        >   
+     <Button
+           android:id="@+id/clear"
+           android:layout_width="wrap_content"           
+           android:layout_height="fill_parent"         
+		   android:layout_weight="1"       
+		   android:layout_gravity="center_vertical"   
+           android:text="@string/clear"
+           android:textColor="@drawable/ivory"
+           android:background="@drawable/open"
+           android:clickable="true" />
+
+     <ImageView 
+            android:layout_height="40dp"
+            android:layout_width="2dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/gray"
+            />
+       <Button
+           android:id="@+id/eraser"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"   
+           android:layout_weight="1"      
+           android:layout_gravity="center_vertical"            
+           android:text="@string/eraser"
+           android:textColor="@drawable/ivory"
+           android:background="@drawable/open"
+           android:clickable="true" />
+
+       <ImageView 
+            android:layout_height="40dp"
+            android:layout_width="2dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/gray"
+            />
+       <Button
+           android:id="@+id/undo"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:layout_weight="1"  
+           android:layout_gravity="center_vertical"
+           android:text="@string/undo"
+           android:textColor="@drawable/ivory"
+           android:background="@drawable/open"
+           android:clickable="true" />
+       
+       <ImageView 
+            android:layout_height="40dp"
+            android:layout_width="2dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/gray"
+            />
+
+       <Button
+           android:id="@+id/redo"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"   
+           android:layout_weight="1"    
+           android:layout_gravity="center_vertical"     
+           android:text="@string/redo"
+           android:textColor="@drawable/ivory"
+           android:background="@drawable/open"
+           android:clickable="true"/>
+       
+       <ImageView 
+            android:layout_height="40dp"
+            android:layout_width="2dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/gray"
+            />
+       
+       <Button
+           android:id="@+id/paint"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:layout_weight="1"  
+           android:layout_gravity="center_vertical"          
+           android:text="@string/pen"        
+           android:textColor="@drawable/ivory" 
+           android:background="@drawable/open"
+           android:clickable="true" />     
+            
+       
+    </LinearLayout >
+    
+    
+</RelativeLayout>

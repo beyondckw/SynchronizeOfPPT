@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+       
+    <LinearLayout 
+        android:id="@+id/layoutTop"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/background_top"
+        android:layout_alignParentBottom="true"
+        >
+        <Button 
+            android:id="@+id/cancle"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/open"
+            android:text="@string/cancle"
+            />
+        <ImageView 
+            android:layout_height="40dp"
+            android:layout_width="2dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/gray"
+            />
+        
+        <Button 
+            android:id="@+id/delete"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/open"            
+            android:text="@string/delete"
+            />       
+    </LinearLayout>
+
+    
+    <ListView
+        android:id="@+id/ppt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:choiceMode="singleChoice"
+        android:fastScrollEnabled="true" >
+    </ListView>
+    
+
+</RelativeLayout>
